@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
 
-  Your Result
-  76
-  of 100
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main id="main">
+      <section class="result">
+        <h3 class="result-header">Your Result</h3>
+        <div class="score-bubble">
+          <h1 class="final-score">76</h1>
+          <p class="out-of">of 100</p>
+        </div>
+        <h2 class="qualification">Great</h2>
+        <p class="statement">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="summary">
+        <h2 class="summary-header">Summary</h2>
+        <div class="skill-box reaction">
+          <img src="./assets/images/icon-reaction.svg" alt="reaction icon" />
+          <span class="skill-name">Reaction</span>
+          <span class="skill-score">80</span>
+          <span class="skill-out-of-100">/ 100</span>
+        </div>
+        <div class="skill-box memory">
+          <img src="./assets/images/icon-memory.svg" alt="memory icon" />
+          <span class="skill-name">Memory</span>
+          <span class="skill-score">92</span>
+          <span class="skill-out-of-100">/ 100</span>
+        </div>
+        <div class="skill-box verbal">
+          <img src="./assets/images/icon-verbal.svg" alt="verbal icon" />
+          <span class="skill-name">Verbal</span>
+          <span class="skill-score">61</span>
+          <span class="skill-out-of-100">/ 100</span>
+        </div>
+        <div class="skill-box visual">
+          <img src="./assets/images/icon-visual.svg" alt="visual icon" />
+          <span class="skill-name">Visual</span>
+          <span class="skill-score">72</span>
+          <span class="skill-out-of-100">/ 100</span>
+        </div>
+        <button>Continue</button>
+      </section>
+    </main>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Muhammed Rashid</a>.
+    </footer>
+  </body>
 </html>
