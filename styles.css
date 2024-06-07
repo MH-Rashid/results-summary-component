@@ -135,7 +135,7 @@ body {
 .skill-score {
   margin-left: auto;
   font-weight: bold;
-  margin-right: 7px;  
+  margin-right: 7px;
 }
 
 .skill-out-of-100 {
@@ -199,8 +199,8 @@ footer {
   font-size: 11px;
   text-align: center;
   position: static;
-  left: 0;
-  right: 0;
+  width: 350px;
+  margin: auto;
   padding: 4rem 0 1rem;
 }
 
@@ -208,17 +208,17 @@ footer a {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 720px) and (min-height: 421px) {
+@media (min-width: 720px) and (min-height: 420px) {
   #main {
     flex-direction: row;
     width: 720px;
-    height: 421px;
+    height: 420px;
     border-radius: 25px;
     box-shadow: 10px 10px 15px rgb(244, 244, 244);
 
     position: absolute;
     inset: 0; /* set top, right, bottom, left to 0 */
-    margin: auto;    
+    margin: auto;
   }
 
   .result {
@@ -244,7 +244,7 @@ footer a {
     font-size: 50px;
     margin-bottom: -10px;
   }
-  
+
   .out-of {
     font-size: 14px;
   }
@@ -270,6 +270,6 @@ footer a {
   }
 
   footer {
-    padding: 670px 0 0;
+    padding: 670px 0 16px;
   }
 }
