@@ -1,0 +1,91 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+  padding: 1.25rem;
+}
+
+.summary-header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 0.25rem;
+}
+
+.skill-box {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+}
+
+.skill-box img {
+  margin-right: 10px;
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.skill-score {
+  font-weight: bold;
+  margin: 0 7px 0 auto;
+}
+
+.skill-out-of-100 {
+  opacity: 0.4;
+  font-weight: bold;
+}
+
+.skill-box:first-of-type {
+  background-color: var(--light-red-bg);
+}
+
+.skill-box:first-of-type .skill-name {
+  color: var(--light-red);
+}
+
+.skill-box:nth-of-type(2) {
+  background-color: var(--orangey-yellow-bg);
+}
+
+.skill-box:nth-of-type(2) .skill-name {
+  color: var(--orangey-yellow);
+}
+
+.skill-box:nth-of-type(3) {
+  background-color: var(--green-teal-bg);
+}
+
+.skill-box:nth-of-type(3) .skill-name {
+  color: var(--green-teal);
+}
+
+.skill-box:nth-of-type(4) {
+  background-color: var(--cobalt-blue-bg);
+}
+
+.skill-box:nth-of-type(4) .skill-name {
+  color: var(--cobalt-blue);
+}
+
+button {
+  margin-top: 5px;
+  background-color: var(--dark-gray-blue);
+  color: white;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--cobalt-blue);
+}
+
+button:active {
+  background-color: darkblue;
+}
